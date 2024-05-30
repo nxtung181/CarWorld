@@ -1,0 +1,172 @@
+# POST http://localhost:5000/api/users/signup
+# Content-Type: application/json
+
+# {
+#     "name": "customer10",
+#     "email": "customer10@gmail.com",
+#     "phone": "0930033222",
+#     "password": "customer10"
+# }
+
+
+# POST http://localhost:5000/api/users/signin
+# Content-Type: application/json
+
+# {
+#     "email": "customer1@gmail.com",
+#     "password": "customer1"
+# }
+
+# PUT http://localhost:5000/api/users/profile/664e062951c204e622e98245
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRlMDYyOTUxYzIwNGU2MjJlOTgyNDUiLCJuYW1lIjoiY3VzdG9tZXIyIiwiZW1haWwiOiJjdXN0b21lcjJAZ21haWwuY29tIiwicGhvbmUiOiIwOTEyNjc1MjM0IiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTcxNjQ4MjkzMCwiZXhwIjoxNzE5MDc0OTMwfQ.kzv3yBpKkzg04GvGJt4Bj_siCvXYJ1YDtDOp-3SI7tI
+
+
+# {
+#     "name": "customer3",
+#     "email": "customer3@gmail.com",
+#     "phone": "0521303217",
+#     "password": "customer3"
+# }
+
+
+# GET http://localhost:5000/api/products/categories
+
+# GET http://localhost:5000/api/products/slug/ferrariNovitec
+
+# POST http://localhost:5000/api/products/664eb843ca31ef855126c8d8
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRlMDYyOTUxYzIwNGU2MjJlOTgyNDUiLCJuYW1lIjoiY3VzdG9tZXIyIiwiZW1haWwiOiJjdXN0b21lcjJAZ21haWwuY29tIiwicGhvbmUiOiIwOTEyNjc1MjM0IiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTcxNjQ3NDQwNywiZXhwIjoxNzE5MDY2NDA3fQ.n5t-hElr5EHlPHdYZ-C59eStVyTnxQ1dDN1WZC3MPUQ
+
+# {
+#     "name": "customer2",
+#     "rating": 4,
+#     "comment": "so beautiful"
+# }
+
+# GET http://localhost:5000/api/products/664eb843ca31ef855126c8d8
+
+
+# GET http://localhost:5000/api/products/search/?category=Ferrari 
+# GET http://localhost:5000/api/products/search/?page=1
+
+# GET http://localhost:5000/api/products/search/?order=lowest
+# GET http://localhost:5000/api/products/search/?price=100-200
+
+# POST http://localhost:5000/api/users/signin
+# Content-Type: application/json
+
+# {
+#     "email": "admin@gmail.com",
+#     "password": "admin"
+# }
+
+# GET http://localhost:5000/api/users/664dd24d3dad33ac49675acf
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjUzOTQzNSwiZXhwIjoxNzE5MTMxNDM1fQ.u0iaF2_LAgDRRfs9ZY7BQwJcoWEslnFC8Y2egzKYo6o
+
+# DELETE  http://localhost:5000/api/users/664e062951c204e622e98245
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjUzOTQzNSwiZXhwIjoxNzE5MTMxNDM1fQ.u0iaF2_LAgDRRfs9ZY7BQwJcoWEslnFC8Y2egzKYo6o
+
+# PUT http://localhost:5000/api/users/664dd24d3dad33ac49675acf
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjUzOTQzNSwiZXhwIjoxNzE5MTMxNDM1fQ.u0iaF2_LAgDRRfs9ZY7BQwJcoWEslnFC8Y2egzKYo6o
+# Content-Type: application/json
+
+# {
+#     "name": "tenthaydoi",
+#     "email": "customer1@gmail.com",
+#     "phone": "0821345563",
+#     "isAdmin": false
+# }
+# GET http://localhost:5000/api/users/?page=2
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjk1MjQ0NywiZXhwIjoxNzE5NTQ0NDQ3fQ.CnIsN5WM0slH9mAAZpXEl0Rgcg8d7zeOv4k7epSnes8
+
+# GET http://localhost:5000/api/products/admin
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjUzOTQzNSwiZXhwIjoxNzE5MTMxNDM1fQ.u0iaF2_LAgDRRfs9ZY7BQwJcoWEslnFC8Y2egzKYo6o
+
+# GET http://localhost:5000/api/products/admin/?page=1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjk1MjQ0NywiZXhwIjoxNzE5NTQ0NDQ3fQ.CnIsN5WM0slH9mAAZpXEl0Rgcg8d7zeOv4k7epSnes8
+
+
+# PUT http://localhost:5000/api/products/664ebb3aca31ef855126c8fc
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjUzOTQzNSwiZXhwIjoxNzE5MTMxNDM1fQ.u0iaF2_LAgDRRfs9ZY7BQwJcoWEslnFC8Y2egzKYo6o
+# Content-Type: application/json
+
+# {
+#     "name": "Ferrari doi ten",
+#     "slug": "ferrariNovitecHK",
+#       "image": "https://res.cloudinary.com/dgqqakvn6/image/upload/v1716435827/o1butsagfjgrsli4bj3w.webp",
+#       "images": [],
+#       "brand": "HKToy",
+#       "category": "Ferrari",
+#       "description": "The Ferrari Novitec",
+#       "price": 350,
+#       "countInStock": 10,
+#       "rating": 0,
+#       "numReviews": 0,
+#       "reviews": []
+# }
+
+# POST http://localhost:5000/api/orders/
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkZDI0ZDNkYWQzM2FjNDk2NzVhY2YiLCJuYW1lIjoidGVudGhheWRvaSIsImVtYWlsIjoiY3VzdG9tZXIxQGdtYWlsLmNvbSIsInBob25lIjoiMDgyMTM0NTU2MyIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE3MTY1NDc2MDUsImV4cCI6MTcxOTEzOTYwNX0.ncSdHP5hvuvRyZ3rwesOCuLQV4Xyj-ls-OBhITWkqyY
+# Content-Type: application/json
+
+# {
+#     "orderItems": [
+#         {
+#         "slug": "ferrariNovitec",
+#         "name": "Ferrari Novitec F8 1:18 Ivy Merit (Grey)",
+#         "quantity": 1,
+#         "image": "https://res.cloudinary.com/dgqqakvn6/image/upload/v1716435246/oljkggds9svwwtdq1qgz.webp",
+#         "price": 300,
+#         "product": "664eb843ca31ef855126c8d8",
+#         "_id":"664eb843ca31ef855126c8d8"
+#         }
+#     ],
+#     "shippingAddress":{
+#         "fullName": "tùng",
+#         "address": "Hà Đông", 
+#         "phone": "0988232763",
+#         "city": "Hà Nội"
+#     },
+#     "paymentMethod": "COD",
+#     "itemsPrice": 300,
+#     "shippingPrice": 0,
+#     "taxPrice": 0,
+#     "totalPrice": 310,
+#     "user": "664dd24d3dad33ac49675acf"
+# }
+
+# GET http://localhost:5000/api/orders/665076563873f58d40abba46
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkZDI0ZDNkYWQzM2FjNDk2NzVhY2YiLCJuYW1lIjoidGVudGhheWRvaSIsImVtYWlsIjoiY3VzdG9tZXIxQGdtYWlsLmNvbSIsInBob25lIjoiMDgyMTM0NTU2MyIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE3MTY1NDc2MDUsImV4cCI6MTcxOTEzOTYwNX0.ncSdHP5hvuvRyZ3rwesOCuLQV4Xyj-ls-OBhITWkqyY
+
+# PUT http://localhost:5000/api/orders/665076563873f58d40abba46/deliver
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjU0OTk1MiwiZXhwIjoxNzE5MTQxOTUyfQ.sG6IWTN6IpbfI_PSAEfNkOfp-KdaF9q-pBeNKr9MT80
+
+# GET http://localhost:5000/api/orders/summary
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjU0OTk1MiwiZXhwIjoxNzE5MTQxOTUyfQ.sG6IWTN6IpbfI_PSAEfNkOfp-KdaF9q-pBeNKr9MT80
+
+# POST http://localhost:5000/api/products/create
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkYzcyOWUzZWU4OWI3YmIzNjY0OTIiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInBob25lIjoiMDEyMzQ1Njc4OSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTcxNjU0OTk1MiwiZXhwIjoxNzE5MTQxOTUyfQ.sG6IWTN6IpbfI_PSAEfNkOfp-KdaF9q-pBeNKr9MT80
+# Content-Type: application/json
+
+# {
+#      "name": "Bently mf",
+#      "slug": "ferrariNovitecHK",
+#        "image": "/image",
+#        "images": [],
+#        "brand": "HKToy",
+#        "category": "Ferrari",
+#        "description": "The Ferrari Novitec",
+#        "price": 350,
+#        "countInStock": 10
+# }
+
+# PUT http://localhost:5000/api/users/profile
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjRkZDI0ZDNkYWQzM2FjNDk2NzVhY2YiLCJuYW1lIjoiY3VzdG9tZXIxIiwiZW1haWwiOiJjdXN0b21lcjFAZ21haWwuY29tIiwicGhvbmUiOiIwODIxMzQ1NTYzIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTcxNjU2OTUzNSwiZXhwIjoxNzE5MTYxNTM1fQ.j2WRh2VVOZhr3t-F-GlHLFhOhPOjYfuNOlwuBygGuhk
+# Content-Type: application/json
+
+# {
+#     "name": "tendadoi",
+#     "email": "customer1@gmail.com",
+#     "phone": "0923884333",
+#     "password": "customer"
+# }
